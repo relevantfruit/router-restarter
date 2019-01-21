@@ -1,4 +1,4 @@
-require('nightmare')({show: true})
+require('nightmare')({show: false})
     .goto('http://192.168.1.1')
     // .type('#index_username', 'admin')
     .type('#password', 'superonline')
